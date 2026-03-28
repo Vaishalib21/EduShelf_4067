@@ -80,4 +80,3 @@ function About() {
 }
 
 export default About;
-<file>d</file>
