@@ -10,7 +10,7 @@ function Home() {
       <Navbar />
       <Banner />
       <Freebook />
-      
+      <file>d</file>
       <Footer />
     </>
   );
