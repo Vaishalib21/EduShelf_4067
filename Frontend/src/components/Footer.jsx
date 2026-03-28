@@ -1,5 +1,5 @@
 import React from "react";
-
+<file>d</file>
 function Footer() {
   return (
     <footer className="bg-base-200 dark:bg-slate-700 text-gray-800 dark:text-white py-8">
