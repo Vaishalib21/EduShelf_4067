@@ -3,7 +3,7 @@ import Cards from "./Cards";
 import axios from "axios";
 import { Link } from "react-router-dom";
 import Slider from "react-slick";
-
+<file>d</file>
 // ✅ Arrow Components
 const NextArrow = ({ onClick }) => (
   <div

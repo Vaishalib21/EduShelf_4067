@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import axios from "axios";
 import Cards from "./Cards";
-
+<file>d</file>
 // ✅ Custom Next Arrow
 const NextArrow = (props) => {
   const { onClick } = props;

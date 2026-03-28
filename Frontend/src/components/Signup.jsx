@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import Login from "./Login";
 import { useAuth } from "../context/AuthProvider";
-<file>d</file>
+
 function Signup() {
   const navigate = useNavigate();
   const [authUser, setAuthUser] = useAuth(); // 🔥 important

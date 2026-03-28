@@ -4,7 +4,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthProvider";
-<file>d</file>
+
 function Login({ onLoginSuccess, onClose }) {
   const navigate = useNavigate();
   const [authUser, setAuthUser] = useAuth(); // 🔥 important
