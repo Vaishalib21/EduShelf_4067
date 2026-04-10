@@ -8,22 +8,25 @@ import userRoute from "./route/user.route.js";
 import transactionRoute from "./route/transaction.route.js";
 import contactRoute from "./route/contact.route.js";
 
+// Load env FIRST
+dotenv.config();
+
 const app = express();
 
 // Middlewares
 app.use(cors());
 app.use(express.json());
 
-// Load env
-dotenv.config();
+// PORT
+const PORT = process.env.PORT || 4001;
 
-const PORT = process.env.PORT || 4000;
-const URI = process.env.MongoDBURI;
+// MongoDB URI (FIXED NAME)
+const URI = process.env.MONGO_URI;
 
-// ✅ CLEAN MongoDB Connection (NO WARNINGS)
+// ✅ MongoDB Connection
 mongoose.connect(URI)
   .then(() => {
-    console.log("✅ Connected to MongoDB");
+    console.log("✅ MongoDB Atlas Connected");
   })
   .catch((error) => {
     console.log("❌ MongoDB Error:", error);

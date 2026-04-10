@@ -1,4 +1,4 @@
-<file>d</file>import Contact from "../model/contact.model.js";
+import Contact from "../model/contact.model.js";
 
 export const saveContact = async (req, res) => {
   try {
